@@ -4,12 +4,11 @@ import Layout from './components/layout';
 import {ThemeProvider} from "@/components/providers/theme-provider.tsx";
 
 
-
 function App() {
 
     return (
         <>
-            <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
+            <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
                 <Layout/>
             </ThemeProvider>
         </>

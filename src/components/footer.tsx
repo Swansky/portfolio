@@ -7,7 +7,7 @@ export default function Footer() {
             <p>{t("footer.madeby")}</p>
             <p>
                 <a
-                    href="https://github.com/ton-github/portfolio"
+                    href="https://github.com/swansky/portfolio"
                     className="flex items-center gap-1 hover:underline underline"
                     target="_blank"
                     rel="noopener noreferrer"
