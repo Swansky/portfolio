@@ -8,6 +8,7 @@
   "section.me.description": "Soy ingeniero de software en AEM MuTest, con experiencia en desarrollo backend, automatización e ingeniería de datos.\nConstruyo sistemas fiables y mantenibles utilizando Java, Python y C++, con un fuerte enfoque en la calidad del código y la escalabilidad.\n\nGraduado de Télécom Saint-Étienne, también realizo proyectos freelance, especialmente en el desarrollo de plugins para Minecraft\ny la arquitectura de servidores. Me motiva el diseño limpio, los desafíos técnicos y crear valor a largo plazo.",
   "section.review.title": "Lo que la gente dice sobre mí",
   "section.project.title": "Proyectos personales",
+  "section.project.description":"Algunos de los proyectos personales en los que estoy trabajando",
   "section.project.subtitle": "Algunos de los proyectos personales en los que estoy trabajando",
   "section.project.card.sourcecode": "Código fuente",
   "section.project.sscs.description": "Sistema simple de comandos slash en Java para Discord con bibliotecas JDA",

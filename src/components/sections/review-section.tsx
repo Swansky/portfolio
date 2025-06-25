@@ -10,6 +10,7 @@ import {
 import {Card, CardContent} from "@/components/ui/card";
 import {Button} from "@/components/ui/button";
 import {Star} from "lucide-react";
+import {useTranslation} from "react-i18next";
 
 const reviews = [
     {
@@ -29,9 +30,12 @@ const reviews = [
 ];
 
 export default function ReviewSection() {
+    const {t} = useTranslation();
     return (
         <section className="px-6 py-16 max-w-2xl mx-auto text-center">
-            <h2 className="text-2xl md:text-4xl font-semibold mb-8">Avis de clients</h2>
+            <h2 className="text-2xl md:text-4xl font-semibold mb-8">
+                {t("section.review.title")}
+            </h2>
             <Carousel className="w-full">
                 <CarouselContent>
                     {reviews.map((r, idx) => (

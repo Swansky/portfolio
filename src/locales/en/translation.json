@@ -8,6 +8,7 @@
   "section.me.description": "I'm a software engineer at AEM MuTest with a background in backend development, automation, and data\nengineering. I build reliable, maintainable systems using Java, Python, and C++, with a strong focus on\ncode quality and scalability.\n\nGraduated from Télécom Saint-Étienne, I also take on freelance projects, especially around Minecraft\nplugin development and server architecture. I'm driven by clean design, technical challenge, and\nlong-term value.",
   "section.review.title": "What people say about me",
   "section.project.title": "On side projects",
+  "section.project.description":"Some of the side projects I'm working on",
   "section.project.subtitle": "Some of the side projects I'm working on",
   "section.project.card.sourcecode": "Source code",
   "section.project.sscs.description": "Simple Slash Commands System in Java on Discord for JDA libs",
