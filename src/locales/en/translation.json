@@ -1,23 +1,45 @@
 {
-  "navbar.me": "Me",
-  "navbar.project": "My projects",
+  "navbar.me": "About Me",
+  "navbar.project": "My Projects",
   "navbar.contact": "Contact",
-  "hero.title": "Software & data engineer passionate about his job",
+
+  "hero.title": "Software & Data Engineer passionate about his craft",
   "hero.subtitle": "Reliable solutions. Clean code. Technical challenges.",
+
   "section.me.title": "Hi! I'm Valérian",
-  "section.me.description": "I'm a software engineer at AEM MuTest, building robust Java applications for both web and desktop.\nI also work with Python, TypeScript, C#, and C++, always with a strong focus on quality, maintainability, and best practices.\n\nGraduated from Télécom Saint-Étienne, I also freelance on projects related to Minecraft servers and online businesses.\nI love well-designed systems, technical challenges, and building long-lasting solutions.",
+  "section.me.description": "Software engineer at AEM MuTest, I design robust Java applications for both web and desktop.\nI also work with Python, TypeScript, C#, and C++, always focusing on quality, maintainability, and best practices.\n\nA graduate of Télécom Saint-Étienne, I also freelance on Minecraft server projects and online businesses.\nI love well-designed systems, technical challenges, and building solutions that last.",
   "section.review.title": "What people say about me",
-  "section.project.title": "On side projects",
-  "section.project.description":"Some of the side projects I'm working on",
-  "section.project.subtitle": "Some of the side projects I'm working on",
-  "section.project.card.sourcecode": "Source code",
-  "section.project.sscs.description": "Simple Slash Commands System in Java on Discord for JDA libs",
-  "section.project.betterdrink.description": "Fork of Drink to improve annotation-based command for Minecraft",
-  "section.project.serverlabs.description": "A Minecraft demo server for plugins developed by myself over time.",
-  "section.project.iocframework.description": "A simple homemade IOC framework with extensions used in RadioRythm.",
-  "section.project.quickwouf.description": "A google quickdraw like game, draw a word and let the AI guess it. This project is a student project.",
-  "section.project.simplybotlibs.description": "Library for Discord bot development.",
-  "section.contact.title": "Contact me",
+
+  "section.project.title": "Projects",
+  "section.project.description": "Some of the projects I'm working on",
+  "section.project.subtitle": "Some of the projects I'm working on",
+
+  "section.project.card.sourcecode": "Source Code",
+  "section.project.card.link": "Open Project",
+  "section.project.card.client": "Not available",
+
+  "section.project.sscs.title": "SSCS",
+  "section.project.sscs.description": "Simple slash command system in Java for Discord using JDA libraries",
+
+  "section.project.imageviewer.title": "Image Analysis Tool",
+  "section.project.imageviewer.description": "Tool developed for a client to analyze high-definition images in real-time and in parallel, applying image processing filters.",
+
+  "section.project.serverlabs.title": "Demo Server Labs",
+  "section.project.serverlabs.description": "A demonstration Minecraft server for plugins I’ve developed over time.",
+
+  "section.project.iocframework.title": "IocFramework",
+  "section.project.iocframework.description": "A homemade IOC framework with extensions used in RadioRythm.",
+
+  "section.project.quickwouf.title": "QuickWouf",
+  "section.project.quickwouf.description": "A game inspired by Google Quickdraw: draw a word and let the AI guess. Made for a school project.",
+
+  "section.project.twistplugin.title": "Twist Plugin",
+  "section.project.twistplugin.description": "Minecraft plugin developed for a client based on the YouTuber Grian’s series \"Twist\", with all the mechanics from the series.",
+
+  "section.project.regionplugin.title": "Region Plugin",
+  "section.project.regionplugin.description": "Minecraft plugin developed for a client allowing players to create factions and protect regions.",
+
+  "section.contact.title": "Contact Me",
   "section.contact.description": "You can reach me on Fiverr or directly by email.",
   "section.contact.fiverr": "Hire me on Fiverr",
   "footer.madeby": "Made by Valérian / Swansky",

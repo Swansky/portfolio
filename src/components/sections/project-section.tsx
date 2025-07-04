@@ -1,64 +1,92 @@
 import {Card, CardContent} from "@/components/ui/card";
 import {Button} from "@/components/ui/button";
-import {Eye, Server} from "lucide-react";
+import {Eye, File, Server} from "lucide-react";
 import {useTranslation} from "react-i18next";
 import type {TFunction} from "i18next";
 
-const projects = [
+interface Project {
+    title: string;
+    description: string;
+    type: "link" | "client" | "ip" | "src";
+    link?: string;
+    ip?: string;
+}
+
+const projects: Project[] = [
     {
-        title: "SSCS",
+        title: "section.project.sscs.title",
         description: "section.project.sscs.description",
-        type: "open",
+        type: "src",
         link: "https://github.com/Swansky/SSCS",
     },
     {
-        title: "BetterDrink",
-        description: "section.project.betterdrink.description",
-        type: "open",
-        link: "https://github.com/Swansky/better-drink",
+        title: "section.project.imageviewer.title",
+        description: "section.project.imageviewer.description",
+        type: "client",
     },
     {
-        title: "ValyriaLabs",
+        title: "section.project.serverlabs.title",
         description: "section.project.serverlabs.description",
-        type: "minecraft",
+        type: "ip",
         ip: "valyrialabs.fr",
     },
     {
-        title: "IOC Framework",
+        title: "section.project.iocframework.title",
         description: "section.project.iocframework.description",
-        type: "open",
+        type: "src",
         link: "https://github.com/Swansky/SimpleIOCContainer",
     },
     {
-        title: "QuickWouf",
+        title: "section.project.quickwouf.title",
         description: "section.project.quickwouf.description",
-        type: "open",
+        type: "link",
         link: "https://quickwouf.swansky.fr",
     },
     {
-        title: "SimplyBotLib",
-        description: "section.project.simplybotlibs.description",
-        type: "open",
-        link: "https://github.com/Swansky/SimplyBotLib",
+        title: "section.project.twistplugin.title",
+        description: "section.project.twistplugin.description",
+        type: "client",
+
+    },
+    {
+        title: "section.project.regionplugin.title",
+        description: "section.project.regionplugin.description",
+        type: "client",
+
     },
 ];
 
 function getButtonContent(project: (typeof projects)[number], t: TFunction) {
     switch (project.type) {
-        case "open":
+        case "src":
             return (
                 <Button variant="outline" className="w-full" asChild>
                     <a href={project.link} target="_blank" rel="noopener noreferrer">
-                        <Eye className="mr-2 h-4 w-4"/> {t("section.project.card.sourcecode")}
+                        <File className="mr-2 h-4 w-4"/> {t("section.project.card.sourcecode")}
                     </a>
                 </Button>
             );
-        case "minecraft":
+        case "ip":
             return (
                 <Button variant="default" className="w-full cursor-text" disabled>
                     <Server className="mr-2 h-4 w-4"/> {project.ip}
                 </Button>
             );
+        case "link":
+            return (
+                <Button variant="default" className="w-full" asChild>
+                    <a href={project.link || "#"} target="_blank" rel="noopener noreferrer">
+                        <Eye className="mr-2 h-4 w-4"/> {t("section.project.card.link")}
+                    </a>
+                </Button>
+            );
+        case "client":
+            return (
+                <Button variant="default" className="w-full cursor-text" disabled>
+                    <Eye className="mr-2 h-4 w-4"/> {t("section.project.card.client")}
+                </Button>
+            );
+
     }
 }
 
@@ -82,7 +110,7 @@ export default function ProjectSection() {
                         <CardContent className="flex flex-col flex-grow">
                             <div className="mb-4">
                                 <h1 className="text-xl font-semibold text-center mb-2">
-                                    {project.title}
+                                    {t(project.title)}
                                 </h1>
                                 <p className="text-sm text-muted-foreground text-center">
                                     {t(project.description)}

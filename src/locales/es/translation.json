@@ -2,23 +2,45 @@
   "navbar.me": "Sobre mí",
   "navbar.project": "Mis proyectos",
   "navbar.contact": "Contacto",
-  "hero.title": "Ingeniero de software y datos apasionado por su oficio",
+
+  "hero.title": "Ingeniero de software y datos apasionado por su trabajo",
   "hero.subtitle": "Soluciones fiables. Código limpio. Retos técnicos.",
+
   "section.me.title": "¡Hola! Soy Valérian",
-  "section.me.description": "Ingeniero de software en AEM MuTest, diseño aplicaciones robustas en Java, tanto para la web como para software de escritorio.\nTambién trabajo con Python, Typescript, C# y C++, siempre con un fuerte enfoque en la calidad, la mantenibilidad y las buenas prácticas.\n\nGraduado de Télécom Saint-Étienne, también soy freelance en proyectos relacionados con servidores de Minecraft y negocios en línea.\nMe apasionan los sistemas bien diseñados, los retos técnicos y construir soluciones que perduren.",
- "section.review.title": "Lo que la gente dice sobre mí",
-  "section.project.title": "Proyectos personales",
-  "section.project.description":"Algunos de los proyectos personales en los que estoy trabajando",
-  "section.project.subtitle": "Algunos de los proyectos personales en los que estoy trabajando",
+  "section.me.description": "Ingeniero de software en AEM MuTest, diseño aplicaciones robustas en Java, tanto para la web como para escritorio.\nTambién trabajo con Python, TypeScript, C# y C++, siempre con un enfoque en la calidad, la mantenibilidad y las buenas prácticas.\n\nGraduado de Télécom Saint-Étienne, también soy freelancer en proyectos relacionados con servidores de Minecraft y negocios en línea.\nMe gustan los sistemas bien pensados, los desafíos técnicos y construir soluciones duraderas.",
+  "section.review.title": "Lo que dicen sobre mí",
+
+  "section.project.title": "Proyectos",
+  "section.project.description": "Algunos de los proyectos en los que estoy trabajando",
+  "section.project.subtitle": "Algunos de los proyectos en los que estoy trabajando",
+
   "section.project.card.sourcecode": "Código fuente",
-  "section.project.sscs.description": "Sistema simple de comandos slash en Java para Discord con bibliotecas JDA",
-  "section.project.betterdrink.description": "Fork de Drink para mejorar los comandos basados en anotaciones para Minecraft",
-  "section.project.serverlabs.description": "Un servidor de demostración de Minecraft para plugins desarrollados por mí a lo largo del tiempo.",
+  "section.project.card.link": "Abrir el proyecto",
+  "section.project.card.client": "No disponible",
+
+  "section.project.sscs.title": "SSCS",
+  "section.project.sscs.description": "Sistema simple de comandos slash en Java para Discord con las bibliotecas JDA",
+
+  "section.project.imageviewer.title": "Herramienta de análisis de imágenes",
+  "section.project.imageviewer.description": "Herramienta desarrollada para un cliente que permite analizar imágenes en alta definición en tiempo real y en paralelo, y aplicar filtros de procesamiento.",
+
+  "section.project.serverlabs.title": "Demo Server Labs",
+  "section.project.serverlabs.description": "Un servidor de demostración de Minecraft para plugins que he desarrollado con el tiempo.",
+
+  "section.project.iocframework.title": "IocFramework",
   "section.project.iocframework.description": "Un framework IOC casero con extensiones utilizadas en RadioRythm.",
-  "section.project.quickwouf.description": "Un juego tipo Google Quickdraw: dibuja una palabra y deja que la IA la adivine. Proyecto estudiantil.",
-  "section.project.simplybotlibs.description": "Biblioteca para el desarrollo de bots de Discord.",
+
+  "section.project.quickwouf.title": "QuickWouf",
+  "section.project.quickwouf.description": "Un juego inspirado en Google Quickdraw: dibuja una palabra y deja que la IA la adivine. Proyecto realizado como parte de un trabajo de estudios.",
+
+  "section.project.twistplugin.title": "Twist Plugin",
+  "section.project.twistplugin.description": "Plugin de Minecraft desarrollado para un cliente, basado en la serie del YouTuber Grian \"Twist\", con todas sus mecánicas.",
+
+  "section.project.regionplugin.title": "Region Plugin",
+  "section.project.regionplugin.description": "Plugin de Minecraft desarrollado para un cliente que permite crear facciones y proteger regiones.",
+
   "section.contact.title": "Contáctame",
-  "section.contact.description": "Puedes contactarme en Fiverr o directamente por correo electrónico.",
+  "section.contact.description": "Puedes contactarme por Fiverr o directamente por correo electrónico.",
   "section.contact.fiverr": "Contrátame en Fiverr",
   "footer.madeby": "Hecho por Valérian / Swansky",
   "footer.sourcecode": "Código fuente en GitHub"

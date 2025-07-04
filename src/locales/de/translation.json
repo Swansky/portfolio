@@ -2,23 +2,45 @@
   "navbar.me": "Über mich",
   "navbar.project": "Meine Projekte",
   "navbar.contact": "Kontakt",
-  "hero.title": "Software- und Dateningenieur mit Leidenschaft für seinen Beruf",
+
+  "hero.title": "Software- & Dateningenieur mit Leidenschaft für seinen Beruf",
   "hero.subtitle": "Zuverlässige Lösungen. Sauberer Code. Technische Herausforderungen.",
+
   "section.me.title": "Hallo! Ich bin Valérian",
-  "section.me.description": "Ich bin Softwareingenieur bei AEM MuTest und entwickle robuste Java-Anwendungen für Web und Desktop.\nIch arbeite außerdem mit Python, TypeScript, C# und C++ – immer mit einem starken Fokus auf Qualität, Wartbarkeit und Best Practices.\n\nIch habe meinen Abschluss an der Télécom Saint-Étienne gemacht und bin auch als Freelancer tätig, insbesondere für Minecraft-Serverprojekte und Online-Business-Lösungen.\nIch liebe durchdachte Systeme, technische Herausforderungen und das Entwickeln langlebiger Lösungen.",
+  "section.me.description": "Softwareingenieur bei AEM MuTest. Ich entwickle robuste Java-Anwendungen für Web und Desktop.\nIch arbeite auch mit Python, TypeScript, C# und C++, stets mit Fokus auf Qualität, Wartbarkeit und Best Practices.\n\nAbsolvent der Télécom Saint-Étienne und als Freelancer aktiv bei Minecraft-Server-Projekten und Online-Geschäften.\nIch liebe gut durchdachte Systeme, technische Herausforderungen und langlebige Lösungen.",
   "section.review.title": "Was andere über mich sagen",
-  "section.project.title": "Nebenprojekte",
-  "section.project.description": "Einige meiner aktuellen Nebenprojekte",
-  "section.project.subtitle": "Einige meiner aktuellen Nebenprojekte",
+
+  "section.project.title": "Projekte",
+  "section.project.description": "Einige meiner Projekte",
+  "section.project.subtitle": "Einige meiner Projekte",
+
   "section.project.card.sourcecode": "Quellcode",
+  "section.project.card.link": "Projekt öffnen",
+  "section.project.card.client": "Nicht verfügbar",
+
+  "section.project.sscs.title": "SSCS",
   "section.project.sscs.description": "Einfaches Slash-Command-System in Java für Discord mit JDA-Bibliotheken",
-  "section.project.betterdrink.description": "Fork von Drink zur Verbesserung von annotationsbasierten Befehlen für Minecraft",
+
+  "section.project.imageviewer.title": "Bildanalyse-Tool",
+  "section.project.imageviewer.description": "Ein Tool, das für einen Kunden entwickelt wurde, um hochauflösende Bilder in Echtzeit und parallel zu analysieren und Bildverarbeitungsfilter anzuwenden.",
+
+  "section.project.serverlabs.title": "Demo Server Labs",
   "section.project.serverlabs.description": "Ein Minecraft-Demoserver für Plugins, die ich im Laufe der Zeit entwickelt habe.",
-  "section.project.iocframework.description": "Ein selbstgemachtes IOC-Framework mit Erweiterungen, die in RadioRythm verwendet werden.",
-  "section.project.quickwouf.description": "Ein Spiel ähnlich wie Google Quickdraw: Zeichne ein Wort und lass die KI raten. Ein Studentenprojekt.",
-  "section.project.simplybotlibs.description": "Bibliothek für die Entwicklung von Discord-Bots.",
-  "section.contact.title": "Kontaktiere mich",
-  "section.contact.description": "Du kannst mich über Fiverr oder direkt per E-Mail erreichen.",
+
+  "section.project.iocframework.title": "IocFramework",
+  "section.project.iocframework.description": "Ein selbst entwickeltes IOC-Framework mit Erweiterungen, die in RadioRythm verwendet werden.",
+
+  "section.project.quickwouf.title": "QuickWouf",
+  "section.project.quickwouf.description": "Ein Spiel inspiriert von Google Quickdraw: Zeichne ein Wort und lass die KI raten. Erstellt für ein Studienprojekt.",
+
+  "section.project.twistplugin.title": "Twist Plugin",
+  "section.project.twistplugin.description": "Minecraft-Plugin für einen Kunden, basierend auf der Serie \"Twist\" vom YouTuber Grian, mit allen Spielmechaniken der Serie.",
+
+  "section.project.regionplugin.title": "Region Plugin",
+  "section.project.regionplugin.description": "Minecraft-Plugin für einen Kunden, mit dem Fraktionen und geschützte Regionen erstellt werden können.",
+
+  "section.contact.title": "Kontakt",
+  "section.contact.description": "Du kannst mich über Fiverr oder direkt per E-Mail kontaktieren.",
   "section.contact.fiverr": "Mich auf Fiverr beauftragen",
   "footer.madeby": "Erstellt von Valérian / Swansky",
   "footer.sourcecode": "Quellcode auf GitHub"

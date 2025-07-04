@@ -2,21 +2,43 @@
   "navbar.me": "Moi",
   "navbar.project": "Mes projets",
   "navbar.contact": "Contact",
+
   "hero.title": "Ingénieur logiciel & data passionné par son métier",
   "hero.subtitle": "Des solutions fiables. Du code propre. Des défis techniques.",
-  "section.me.title": "Salut ! Moi c'est Valérian",
-  "section.me.description": "Ingénieur logiciel chez AEM MuTest, je conçois des applications robustes en Java, que ce soit pour le web ou les logiciels lourds.\nJe travaille aussi en Python,TypeScript, C# et C++, toujours avec un fort accent sur la qualité, la maintenabilité et les bonnes pratiques.\n\nDiplômé de Télécom Saint-Étienne, je suis également freelance sur des projets liés aux serveurs Minecraft et aux business en ligne.\nJ’aime les systèmes bien pensés, les défis techniques et construire des solutions qui durent.",
+
+  "section.me.title": "Salut ! Moi, c'est Valérian",
+  "section.me.description": "Ingénieur logiciel chez AEM MuTest, je conçois des applications robustes en Java, que ce soit pour le web ou les logiciels lourds.\nJe travaille aussi en Python, TypeScript, C# et C++, toujours avec un fort accent sur la qualité, la maintenabilité et les bonnes pratiques.\n\nDiplômé de Télécom Saint-Étienne, je suis également freelance sur des projets liés aux serveurs Minecraft et aux business en ligne.\nJ’aime les systèmes bien pensés, les défis techniques et construire des solutions qui durent.",
   "section.review.title": "Ce que les gens disent de moi",
-  "section.project.title": "Projets personnels",
-  "section.project.description": "Quelques-uns des projets personnels sur lesquels je travaille",
-  "section.project.subtitle": "Quelques-uns des projets personnels sur lesquels je travaille",
+
+  "section.project.title": "Projets",
+  "section.project.description": "Quelques-uns des projets sur lesquels je travaille",
+  "section.project.subtitle": "Quelques-uns des projets sur lesquels je travaille",
+
   "section.project.card.sourcecode": "Code source",
+  "section.project.card.link": "Ouvrir le projet",
+  "section.project.card.client": "Non disponible",
+
+  "section.project.sscs.title": "SSCS",
   "section.project.sscs.description": "Système simple de commandes slash en Java sur Discord pour les librairies JDA",
-  "section.project.betterdrink.description": "Fork de Drink pour améliorer les commandes par annotations dans Minecraft",
-  "section.project.serverlabs.description": "Un serveur Minecraft de démonstration pour les plugins que j'ai développés au fil du temps.",
+
+  "section.project.imageviewer.title": "Outil d’analyse d’images",
+  "section.project.imageviewer.description": "Outil développé pour un client, permettant d’analyser des images en temps réel et en parallèle en haute définition, et d’appliquer des filtres de traitement d’image.",
+
+  "section.project.serverlabs.title": "Demo Server Labs",
+  "section.project.serverlabs.description": "Un serveur Minecraft de démonstration pour les plugins que j’ai développés au fil du temps.",
+
+  "section.project.iocframework.title": "IocFramework",
   "section.project.iocframework.description": "Un framework IOC fait maison avec des extensions utilisées dans RadioRythm.",
-  "section.project.quickwouf.description": "Un jeu type Google Quickdraw : dessinez un mot et laissez l'IA deviner. Projet réalisé dans un cadre étudiant.",
-  "section.project.simplybotlibs.description": "Librairie pour le développement de bots Discord.",
+
+  "section.project.quickwouf.title": "QuickWouf",
+  "section.project.quickwouf.description": "Un jeu inspiré de Google Quickdraw : dessinez un mot et laissez l’IA deviner. Projet réalisé dans le cadre d’un projet d’étude.",
+
+  "section.project.twistplugin.title": "Twist Plugin",
+  "section.project.twistplugin.description": "Plugin Minecraft développé pour un client, basé sur la série du YouTuber Grian \"Twist\". Le plugin intègre l’ensemble des mécaniques de la série.",
+
+  "section.project.regionplugin.title": "Region Plugin",
+  "section.project.regionplugin.description": "Plugin Minecraft développé pour un client permettant de créer des factions, de créer des régions et de les protéger.",
+
   "section.contact.title": "Me contacter",
   "section.contact.description": "Vous pouvez me contacter sur Fiverr ou directement par email.",
   "section.contact.fiverr": "Me recruter sur Fiverr",
